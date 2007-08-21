@@ -5,6 +5,7 @@ WriteMakefile
           'PL_FILES' => {},
           'INSTALLDIRS' => 'site',
           'NAME' => 'Template::Plugin::ASCIITable',
+          'EXE_FILES' => [],
           'VERSION_FROM' => 'lib/Template/Plugin/ASCIITable.pm',
           'PREREQ_PM' => {
                            'Test::More' => 0,

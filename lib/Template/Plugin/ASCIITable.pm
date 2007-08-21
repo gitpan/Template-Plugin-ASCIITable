@@ -3,7 +3,7 @@ use base 'Template::Plugin';
 use Text::ASCIITable;
 use vars qw($VERSION $AUTOLOAD);
 
-$VERSION='0.1';
+$VERSION='0.2';
 
 =head1 NAME
 
@@ -498,12 +498,12 @@ If you pass it a style name, it must be one of the following:
 
 this is the default C<Text::ASCIITable> style:
 
-  .=----+-----+-------+-----=.
+  .--------------------------.
   | one | two | three | four |
-  |=----+-----+-------+-----=|
+  +-----+-----+-------+------+
   | one | one | one   | one  |
   | two | two | two   | two  |
-  '=----+-----+-------+-----='
+  '-----+-----+-------+------'
 
 =item C<rest-simple>
 
